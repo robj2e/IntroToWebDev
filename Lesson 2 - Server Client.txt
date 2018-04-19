@@ -1,0 +1,14 @@
+Common HTTP Status Codes
+
+200 = OK
+404 = Resource not found
+500 = Server Error
+
+
+Status Code Ranges
+
+100s are Informational
+200s are successes
+300s are redirection (something moved)
+400s are client errors
+500s are server errors
