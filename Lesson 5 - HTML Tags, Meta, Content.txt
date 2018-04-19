@@ -1,0 +1,28 @@
+HTML TAGS - META
+<html> - Encompasses your entire document
+
+<head> - Where all your meta-data goes, nothing here gets displayed
+
+<body> - Where all your content goes. This is displayed on the webpage
+
+
+HTML TAGS - content
+<h1>, <h2>, ... <h6> - Headers or titles. h1 is most important or "top level"
+
+<p> - Denotes a stand-alone paragraph
+
+<div> - A division or container of content. Used to group like objets together
+
+
+HTML TAGS - content
+
+<ul> - An unordered list. These bullet points are un ordered list. Implies no order.
+
+<ol> - Ordered list. Any list that implies order (usually has leading numbers)
+
+<li> - An element of a list. in this case, an individual bullet point.
+
+
+
+
+
