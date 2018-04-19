@@ -1,0 +1,11 @@
+Example used for explaining nested tages was a sports team
+
+<team>
+  <defence>
+    <centre-back>Chris Smalling</centre-back>
+    <centre-back>Phil Jones</centre-back>
+  <defence/>
+  <attackers>
+    <centre-foward>Romalu Lukaku</centre-forward>
+  </attackers>
+</team>
