@@ -1,0 +1,13 @@
+HTML = Hypertext Markup Language
+
+Example used is a blog post
+
+HTML is the content of the webpage.
+It describes the different sections of the page.
+Will contain the actual words of the post.
+
+HTML is made up of nested tags.
+Starts with most general then goes more specific
+
+
+
