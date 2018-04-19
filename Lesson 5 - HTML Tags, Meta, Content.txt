@@ -31,5 +31,32 @@ HTML TAGS - INLINE
 
 <span> - Like div for inlines. Used for something you want to separate from other things. Becomes useful with CSS
 
+HTML TAGS - VOID TAGS
+
+Some tags don't need a closing tag, they can't have anything in them.
+
+<input /> - Self contained, closes itself
+
+<img /> - Same as above.
+
+HTML TAGS - GROUPING
+
+
+
+HTML - Classes
+
+Classes label things such as div's with a name to refer to later and potentially edit styling etc.
+
+
+HTML - ID's
+
+Classes can and should be used multiple times throughout a page.
+
+ID's are unique. There can only be one of an ID on a page.
+
+
+HTML Tags - Naming
+
+
 
 
