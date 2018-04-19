@@ -23,6 +23,13 @@ HTML TAGS - content
 <li> - An element of a list. in this case, an individual bullet point.
 
 
+HTML TAGS - INLINE
+
+<strong> - Usually bold. Used to make something stand out
+
+<em> - Usually italics, used to add EMphasis.
+
+<span> - Like div for inlines. Used for something you want to separate from other things. Becomes useful with CSS
 
 
 
