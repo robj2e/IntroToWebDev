@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  
+}
+
+body{
+  margin-top:0px;
+}
+
+.picture-group{
+  height: 300px;
+  width:24%;
+  float: left;
+  border-right: black solid;
+  border-bottom: black solid;
+  
+  
+}
+
+.picture-title{
+  text-align: center;
+}
+
+.picture-img{
+ display:block;
+ margin-left:auto;
+ margin-right:auto;
+}
+
+.picture-caption{
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
