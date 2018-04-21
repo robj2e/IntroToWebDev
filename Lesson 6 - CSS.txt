@@ -1,0 +1,45 @@
+HTML is the content
+
+CSS is the style, CSS determines how the HTML looks
+
+CSS is a collection of rules. If certain rules are met, then a style is added to it.
+
+Small snippet advice on course
+
+when writing CSS files add 
+
+* {
+  box-sizing: border-box;
+}
+
+Puts entire page in border box way of doing things, not content box which is old and outdated.
+
+CSS shortcuts
+
+div{
+  margin-top: 50px;
+
+}
+
+Advice:
+
+Always style using classes, styling with ID can be a problem later on when it comes to 
+specificity issues. Specificity being what CSS property takes precedence when
+multiple styles are conflicting on the same section.
+
+Multiple classes can be used when defining div's etc.
+
+Say you had 3 boxes, you could have a box class and a first, second, and third class.
+
+You could style box to apply to all
+You could then style .box.first to apply CSS to a specific item
+
+CSS - DOCUMENT FLOW
+
+CSS has a concept called float.
+You can have divs "float" next to each other instead of each on a new line.
+The browser will try to fit as many divs next to each other until there isn't any room, then it'll wrap to the next line.
+
+
+
+
