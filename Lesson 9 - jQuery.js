@@ -26,7 +26,7 @@ Within the JS it reads
 
 */
 
-$('.caption-text').text(Magic!);
+$('.caption-text').text('Magic!');
 
 //Could also be written like
 
