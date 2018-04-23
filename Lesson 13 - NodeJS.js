@@ -20,7 +20,7 @@ http.createServer(function (req, res) {
 
 console.log('Server running at http://127.0.0.1/8080')
 
-/* 
+/*
 
 If this was called app.js
 
@@ -40,11 +40,10 @@ This process launched a web server locally, running on your computer.
 
 //  BREAKDOWN OF THIS EXAMPLE
 
-//req = request, res = response
+// req = request, res = response
 
 // require - This is saying, node I know you have a library called http, please give it to me.
 var http = require('http')
-
 
 // Then referencing that var above, http.createServer creates us a webserver
 http.createServer(function (req, res) {
@@ -61,14 +60,12 @@ http.createServer(function (req, res) {
   // this is saying, listen on port 8080, and you're going to be on localhost (127.0.0.1)
   .listen(8080, '127.0.0.1')
 
-//This console.log displayed information within the terminal window, NOT a browser console like you would expect.
+// This console.log displayed information within the terminal window, NOT a browser console like you would expect.
 console.log('Server running at http://127.0.0.1/8080')
-
-
 
 // NPM - Node Package Manager //
 
-/* 
+/*
 
 ctrl + c , will end the server that you have open.
 
@@ -84,9 +81,55 @@ nodemon is a development tool that every time you make code changes, nodemon res
 
 npm by default installs everything locally. We want to be able to use nodemon anywhere, so we used the -g tag to install in globally.
 
+///////////////////////////////////////////////
+
+EXPRESS
+
+Like jQuery, Express is a library designed to make writing code easier
+
+*/
+
+// Example given in lecture
+
+var express = require('express')
+var app = express()
+
+app.get('/hello.txt', function (req, res) {
+  res.send('Hello World')
+})
+
+var server = app.listen(8080, function () {
+  console.log('Listening on port 8080')
+
+})
 
 
+/*
 
 
+//// STATIC ASSETS ////
+
+These are essentially things we are going to give to the user 
+which the server is not going to change.
+They are served exactly as they are saved
+
+For example:
+
+HTML, CSS, Javascript, images & fonts
 
 
+As such, it would be annoying to write a route for every image. Instead we have "static"
+or "public" directories. Which contains these items that are served as they are.
+
+This is a express feature.
+
+*/
+
+// Example on lecture
+
+var express = require('express')
+var app = express()
+
+app.use(express.static(__dirname + '/public'))
+
+var server = app.listen(8080)
